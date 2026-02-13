@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compétences - Mon Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <h1 class="brand-text">IMIEN Jean César Le Grand</h1>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="a-propos.html">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projets.html">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="competences.html">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="certifications.html">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Mes Compétences</h1>
+                <p>Une expertise multidisciplinaire alliant réseaux, programmation, développement et robotique</p>
+            </div>
+        </section>
+
+        <!-- Dashboard de Statistiques -->
+        <section class="skills-stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">Domaines d'Expertise</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">25+</div>
+                        <div class="stat-label">Compétences Avancées</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Ans d'Expérience</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filtres par catégorie -->
+        <section class="skills-filters">
+            <div class="container">
+                <h2 class="section-title">Filtrer par domaine</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Tous</button>
+                    <button class="filter-btn" data-filter="reseaux">Réseaux</button>
+                     <button class="filter-btn" data-filter="web">Web & Mobile</button>
+                    <button class="filter-btn" data-filter="programmation">Programmation</button>
+                    <button class="filter-btn" data-filter="robotique">Robotique</button>
+                    <button class="filter-btn" data-filter="qualites">Qualités</button>
+                    <button class="filter-btn" data-filter="langues">Langues</button>
+                </div>
+            </div>
+        </section>        
+
+        <!-- Réseaux et Systèmes -->
+        <section class="competence-section" data-category="reseaux">
+            <div class="container">
+                <h2 class="section-title">Réseaux et Systèmes</h2>
+                <div class="competence-grid">
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Configuration Réseau</h3>
+                            <div class="skill-badge">Avancé</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">Segmentation réseau (VLAN, Subnetting)</span>
+                            </li>
+                            <li>
+                                <span class="skill-item">Conception LAN/WAN</span>
+                            </li>
+                             <li>
+                                <span class="skill-item">Services Réseau (DNS, DHCP, FTP, etc)</span>
+                            </li>
+                            <li>
+                                <span class="skill-item">Routeurs, Commutateurs & Points d'accès</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Administration Linux</h3>
+                            <div class="skill-badge">Avancé</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">Debian, Ubuntu & Windows Server</span>
+                               
+                            </li>
+                            <li>
+                                <span class="skill-item">Gestion utilisateurs</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Diagnostic et maintenance système</span>
+                               
+                            </li>
+                            <li>
+                                <span class="skill-item">Scripting Bash</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Outils et plateformes réseaux (Wireshark, Nmap, Packet Tracer, etc)</span>
+                               
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Cybersécurité</h3>
+                            <div class="skill-badge">Intermédiaire</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">Protocoles de sécurité (SSH, HTTPS, TLS, etc)</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Pare-feu & Filtrage</span>
+                               
+                            </li>
+                            <li>
+                                <span class="skill-item">Bonnes pratiques de sécurité</span>   
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Développement Web et Mobile -->
+        <section class="competence-section" data-category="web">
+            <div class="container">
+                <h2 class="section-title">Développement Web et Mobile</h2>
+                <div class="competence-grid">
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Web</h3>
+                            <div class="skill-badge">Avancé</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">HTML5 Sémantique</span>
+                               
+                            </li>
+                            <li>
+                                <span class="skill-item">CSS3 & Animations</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">JavaScript Interactif</span>
+                               
+                            </li>
+                            <li>
+                                <span class="skill-item">Design UI/UX Moderne</span>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Mobile</h3>
+                            <div class="skill-badge">Intermédiaire</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">Flutter & Dart</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Design Mobile-First</span>
+                               
+                            </li>
+                            <li>
+                                <span class="skill-item">Stockage Local</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">UX Mobile</span>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Outils & Méthodes</h3>
+                            <div class="skill-badge">Avancé</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">Git & GitHub</span>
+                               
+                            </li>
+                            <li>
+                                <span class="skill-item">VS Code</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Design Tools (Figma, Canva)</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Outils IA (ChatGPT, GitHub Copilot, etc)</span>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Programmation -->
+        <section class="competence-section competence-section-alt" data-category="programmation">
+            <div class="container">
+                <h2 class="section-title">Programmation</h2>
+                <div class="competence-grid">
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Langages</h3>
+                            <div class="skill-badge">Avancé</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">C/C++ (Système & Arduino)</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">JavaScript</span>
+                                
+                            </li>
+                            
+                            <li>
+                                <span class="skill-item">Bash</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Java (Notions de base)</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Python (Notions de base)</span>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Concepts Avancés</h3>
+                            <div class="skill-badge">Intermédiaire</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">Programmation Orientée Objet</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Structures & Algorithmes</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Gestion Mémoire</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Debugging & Testing</span>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Bases de Données</h3>
+                            <div class="skill-badge">Débutant</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">SQL Fondamental</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">SQLite</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Modélisation Données (UML)</span>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Robotique et IoT -->
+        <section class="competence-section competence-section-alt" data-category="robotique">
+            <div class="container">
+                <h2 class="section-title">Robotique et IoT</h2>
+                <div class="competence-grid">
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Microcontrôleurs</h3>
+                            <div class="skill-badge">Intermédiaire</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">ESP32, Arduino & PIC16F</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Programmation Embarquée</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">GPIO & Broches</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Communication I2C/Série</span>
+                               
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Systèmes Embarqués</h3>
+                            <div class="skill-badge">Intermédiaire</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">Capteurs & Acquisition</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Moteurs & Actionneurs</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Communication WiFi/BLE</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Interface Web Temps Réel</span>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Applications Robotiques</h3>
+                            <div class="skill-badge">Intermédiaire</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">Robots Téléguidés</span>
+                                
+                            </li>
+                            <li>
+                                <span class="skill-item">Navigation Autonome</span>
+                               
+                            </li>
+                            <li>
+                                <span class="skill-item">Suivi de Ligne</span>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Qualités Personnelles -->
+        <section class="competence-section" data-category="qualites">
+            <div class="container">
+                <h2 class="section-title">Qualités Personnelles</h2>
+                <div class="competence-grid">
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Traits Professionnels</h3>
+                            <div class="skill-badge">Développement</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">Rigueur et Méthodologie</span>
+                            </li>
+                            <li>
+                                <span class="skill-item">Esprit d'Analyse</span>
+                            </li>
+                            <li>
+                                <span class="skill-item">Adaptabilité</span>
+                            </li>
+                             <li>
+                                <span class="skill-item">Calme et Respectueux</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Communication & Collaboration</h3>
+                            <div class="skill-badge">Développement</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">Travail en Équipe</span>
+                            </li>
+                            <li>
+                                <span class="skill-item">Communication Claire</span>
+                            </li>
+                            <li>
+                                <span class="skill-item">Leadership Partage</span>
+                            </li>
+                            <li>
+                                <span class="skill-item">Écoute Active</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Apprentissage & Croissance</h3>
+                            <div class="skill-badge">Développement</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">Curiosité Intellectuelle</span>
+                            </li>
+                            <li>
+                                <span class="skill-item">Apprentissage Autonome</span>
+                            </li>
+                            <li>
+                                <span class="skill-item">Gestion du Temps</span>
+                            </li>
+                            <li>
+                                <span class="skill-item">Persévérance</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Compétences Linguistiques -->
+        <section class="competence-section competence-section-alt" data-category="langues">
+            <div class="container">
+                <h2 class="section-title">Compétences Linguistiques</h2>
+                <div class="competence-grid">
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Français</h3>
+                            <div class="skill-badge">Courant</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">Langue d'enseignement</span>
+                            </li>
+                            <li>
+                                <span class="skill-item">Communication Orale & Écrite</span>
+                            </li>
+                            <li>
+                                <span class="skill-item">Documentation Technique</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Anglais</h3>
+                            <div class="skill-badge">Intermédiaire</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">Compréhension Écrite</span>
+                            </li>
+                            <li>
+                                <span class="skill-item">Lecture Documentation</span>
+                            </li>
+                            <li>
+                                <span class="skill-item">Communication Basique</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="competence-card">
+                        <div class="card-header">
+                            <h3>Langues locales</h3>
+                            <div class="skill-badge">Multilingue</div>
+                        </div>
+                        <ul class="competence-list">
+                            <li>
+                                <span class="skill-item">Dagara (langue maternelle)</span>
+                            </li>
+                            <li>
+                                <span class="skill-item">Dioula</span>
+                            </li>
+                            <li>
+                                <span class="skill-item">Mooré (bases)</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Pourquoi moi? -->
+    <section class="why-section">
+        <div class="container">
+            <h2 class="section-title">Pourquoi collaborer avec moi ?</h2>
+            <div class="why-card">
+                <div class="why-item">
+                    <div class="why-number">01</div>
+                    <h3>Rigoureux & Méthodique</h3>
+                    <p>J'adopte une approche structurée et orientée résultats dans chaque projet</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-number">02</div>
+                    <h3>Vision Globale</h3>
+                    <p>Je conçois des solutions intégrées comprenant réseaux, logiciel et matériel</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-number">03</div>
+                    <h3>Orienté Sécurité</h3>
+                    <p>La cybersécurité et la fiabilité sont au cœur de mes préoccupations</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-number">04</div>
+                    <h3>Apprentissage Continu</h3>
+                    <p>Je reste à jour avec les technologies modernes et tendances émergentes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+            
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Accueil</a></li>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="certifications.html">Certifications</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Réseaux Sociaux</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/Rasec-ai-tech" title="GitHub">GH</a>
+                        <a href="https://www.linkedin.com/in/jean-c%C3%A9sar-le-grand-imien-8a835a31b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn">in</a>
+                        <a href="mailto:legrandimien@yahoo.com" title="Email">✉</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>By IMIEN Jean César Le Grand | Tous droits réservés - &copy; 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

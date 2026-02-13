@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets - Mon Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <h1 class="brand-text">IMIEN Jean César Le Grand</h1>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="a-propos.html">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projets.html">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="competences.html">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="certifications.html">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Mes Projets</h1>
+                <p>Découvrez les projets que j'ai réalisés avec passion</p>
+            </div>
+        </section>
+
+        <!-- Statistiques clés -->
+        <section class="projects-stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">9</div>
+                        <div class="stat-label">Projets Réalisés</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Technologies Maîtrisées</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Passion & Qualité</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filtres par catégorie -->
+        <section class="filters-section">
+            <div class="container">
+                <h2 class="section-title">Filtrer par catégorie</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Tous</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="robotique">Robotique</button>
+                    <button class="filter-btn" data-filter="script">Programmation</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projets -->
+        <section class="featured-projects">
+            <div class="container">
+                <h2 class="section-title">Projets Réalisés</h2>
+                <div class="projects-grid">
+                    <!-- Mon Portfolio -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-header">Site Portfolio</div>
+                        <h3>Mon Portfolio</h3>
+                        <p>Un portfolio personnel présentant mes compétences, mes projets et mes services. Design moderne et épuré avec navigation fluide et animations fluides.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <p class="project-date">Jan 2026</p>
+                        <div class="project-action">
+                            <a href="https://github.com/Rasec-ai-tech/Portfolio.git" target="_blank" class="btn-sm">Voir le projet</a>
+                        </div>
+                    </div>
+
+                     <!-- Boutique en Ligne -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-header">Site Vitrine</div>
+                        <h3>Boutique en Ligne</h3>
+                        <p>Un site vitrine complet présentant les produits et services d'une boutique. Interface responsive et intuitive avec système de commande intégré via réseaux sociaux.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                        <p class="project-date">Jan 2026</p>
+                        <div class="project-action">
+                            <a href="https://shalom-style-admin.web.app/" target="_blank" class="btn-sm">Voir le projet</a>
+                        </div>
+                    </div>
+
+                    <!-- Gestionnaire de Tâches -->
+                    <div class="project-card" data-category="mobile">
+                        <div class="project-header">Application Mobile</div>
+                        <h3>Gestionnaire de Tâches</h3>
+                        <p>Une application mobile complète permettant de gérer des tâches quotidiennes avec stockage local. Ajoutez, modifiez et supprimez des tâches facilement.</p>
+                        <div class="project-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Dart</span>
+                            <span class="tag">SQLite</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                        <p class="project-date">Jan 2026</p>
+                        <div class="project-action">
+                            <a href="https://github.com/Rasec-ai-tech/ProjetFinal_Dclic_DevMobile_ToDoApp.git" target="_blank" class="btn-sm">Voir le projet</a>
+                        </div>
+                    </div>
+
+                    <!-- Plateforme Emplois du Temps -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-header">Projet Tutoré</div>
+                        <h3>Plateforme de Suivi des Emplois du Temps</h3>
+                        <p>Une plateforme complète pour étudiants et enseignants. Développée en équipe, j'en étais le responsable technique. Stack fullstack avec backend robuste et sécurisé.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">SQLite</span>
+                        </div>
+                        <p class="project-date">Jul 2025</p>
+                        <div class="project-action">
+                            <a href="https://github.com/Rasec-ai-tech/Projet_Tutore_ESI-Schedule.git" target="_blank" class="btn-sm">Voir le projet</a>
+                        </div>
+                    </div>
+
+                    <!-- Robot Hackathon -->
+                    <div class="project-card" data-category="robotique">
+                        <div class="project-header">Hackathon Robotique</div>
+                        <h3>Robot Téléguidé avec ESP32</h3>
+                        <p>Un robot téléguidé sophistiqué pour naviguer en environnement complexe. Interface web de contrôle en temps réel. Travail en équipe de 5 personnes hautement coordonné.</p>
+                        <div class="project-tags">
+                            <span class="tag">C++ (Arduino)</span>
+                            <span class="tag">ESP32</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <p class="project-date">Juin 2025</p>
+                        <p style="text-align: justify;">Le code source de ce projet n'est malheureusement pas disponible</p>
+                    </div>
+
+                    <!-- Analyse numérique -->
+                    <div class="project-card" data-category="script">
+                        <div class="project-header">Script Utility</div>
+                        <h3>Analyse Numérique</h3>
+                        <p>Ce projet présente les solutions numériques et théoriques couvrant la résolution d'équations différentielles par différences finies, l'intégration numérique, et la résolution de systèmes linéaires par factorisation matricielle.</p>
+                        <div class="project-tags">
+                            <span class="tag">Matlab</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Mathématiques</span>
+                        </div>
+                        <p class="project-date">Feb 2025</p>
+                        <div class="project-action">
+                            <a href="https://github.com/Rasec-ai-tech/examen-matlab.git" target="_blank" class="btn-sm">Voir le projet</a>
+                        </div>
+                    </div>
+
+                    <!-- Script Tri Fichiers -->
+                    <div class="project-card" data-category="script">
+                        <div class="project-header">Script Utility</div>
+                        <h3>Application de Tri de Fichiers</h3>
+                        <p>Application de tri de fichiers basée sur Bash et Zenity. Classe automatiquement les fichiers par type et extension. Outil pratique pour récupération de données.</p>
+                        <div class="project-tags">
+                            <span class="tag">Bash</span>
+                            <span class="tag">Zenity</span>
+                            <span class="tag">Linux</span>
+                        </div>
+                        <p class="project-date">Feb 2025</p>
+                        <div class="project-action">
+                            <a href="https://github.com/Rasec-ai-tech/Application_de_Tri.git" target="_blank" class="btn-sm">Voir le projet</a>
+                        </div>
+                    </div>
+
+                    <!-- Magasin de vêtements-->
+                    <div class="project-card" data-category="script">
+                        <div class="project-header">Programmation</div>
+                        <h3>Magasin de Vêtements</h3>
+                        <p>Application basique de gestion de magasin de vêtements en java. Permet de gérer les stocks et les ventes.</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">POO</span>
+                            <span class="tag">Collections</span>
+                        </div>
+                        <p class="project-date">Jan 2025</p>
+                        <div class="project-action">
+                            <a href="https://github.com/Rasec-ai-tech/examen-java.git" target="_blank" class="btn-sm">Voir le projet</a>
+                        </div>
+                    </div>
+
+                    <!-- Arbre généalogique -->
+                    <div class="project-card" data-category="script">
+                        <div class="project-header">Programmation</div>
+                        <h3>Arbre Généalogique</h3>
+                        <p>Application basique de génération et de gestion d'arbre généalogique en C. Permet de créer et visualiser des arbres familiaux complexes avec des relations de parenté.</p>
+                        <div class="project-tags">
+                            <span class="tag">C</span>
+                            <span class="tag">Algorithmes</span>
+                            <span class="tag">Structures de données</span>
+                        </div>
+                        <p class="project-date">Dec 2024</p>
+                        <div class="project-action">
+                            <a href="https://github.com/Rasec-ai-tech/arbre-genealogique.git" target="_blank" class="btn-sm">Voir le projet</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline de Méthode de Travail -->
+        <section class="process-timeline">
+            <div class="container">
+                <h2 class="section-title">Ma Méthode de Travail</h2>
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">1</div>
+                        <div class="timeline-content">
+                            <h3>Compréhension</h3>
+                            <p>Analyse complète du problème sans se précipiter sur une solution</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">2</div>
+                        <div class="timeline-content">
+                            <h3>Décomposition</h3>
+                            <p>Décomposer en sous-problèmes clairs et maîtrisables (diviser pour régner)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">3</div>
+                        <div class="timeline-content">
+                            <h3>Conception</h3>
+                            <p>Définir une architecture logique avant l'implémentation</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">4</div>
+                        <div class="timeline-content">
+                            <h3>Implémentation</h3>
+                            <p>Développer par étapes en validant chaque brique</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">5</div>
+                        <div class="timeline-content">
+                            <h3>Tests</h3>
+                            <p>Tester systématiquement les cas normaux et limites</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">6</div>
+                        <div class="timeline-content">
+                            <h3>Sécurité & Fiabilité</h3>
+                            <p>Assurer sécurité, stabilité et résilience du système</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">7</div>
+                        <div class="timeline-content">
+                            <h3>Documentation</h3>
+                            <p>Documentation claire avec schémas et justifications techniques</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Accueil</a></li>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="certifications.html">Certifications</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Réseaux Sociaux</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/Rasec-ai-tech" title="GitHub">GH</a>
+                        <a href="https://www.linkedin.com/in/jean-c%C3%A9sar-le-grand-imien-8a835a31b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn">in</a>
+                        <a href="mailto:legrandimien@yahoo.com" title="Email">✉</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>By IMIEN Jean César Le Grand | Tous droits réservés - &copy; 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

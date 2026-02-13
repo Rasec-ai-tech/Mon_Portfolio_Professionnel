@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications - Mon Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <h1 class="brand-text">IMIEN Jean César Le Grand</h1>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="a-propos.html">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projets.html">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="competences.html">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="certifications.html">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Mes Certifications</h1>
+                <p>Reconnaissances académiques, professionnelles et certifications obtenues</p>
+            </div>
+        </section>
+
+        <!-- Statistiques Certifications -->
+        <section class="skills-stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">11</div>
+                        <div class="stat-label">Certifications</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">7</div>
+                        <div class="stat-label">Attestations</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Diplômes</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filtres par catégorie -->
+        <section class="skills-filters">
+            <div class="container">
+                <h2 class="section-title">Filtrer par type</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Tous</button>
+                    <button class="filter-btn" data-filter="certificats">Certificats</button>
+                    <button class="filter-btn" data-filter="attestations">Attestations</button>
+                    <button class="filter-btn" data-filter="diplomes">Diplômes</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Zone de contenu principal pour les certifications -->
+        <section class="certifications-container">
+            <div class="container">
+                <div class="certifications-grid">
+
+                    <!-- Attestation -->
+                    <div class="certification-card" data-category="attestations">
+                        <div class="cert-type-badge" style="background: linear-gradient(135deg, #4dabf7 0%, #74c0fc 100%);">Attestation</div>
+                        <h3>Développement Mobile - Niveau Intermédiare</h3>
+                        <div class="cert-issuer">Organisation Internationale de la Francophonie</div>
+                        <div class="cert-date">Obtenue en Janvier 2026</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Flutter</span>
+                            <span class="cert-skill-tag">Dart</span>
+                            <span class="cert-skill-tag">SQLite</span>
+                            <span class="cert-skill-tag">Design UI/UX</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Attestation_dev_mobile_intermediaire.pdf" data-cert-title="Attestation Développement Mobile">Voir le certificat</button>
+                    </div>
+
+                    <!-- Attestation -->
+                    <div class="certification-card" data-category="attestations">
+                        <div class="cert-type-badge" style="background: linear-gradient(135deg, #4dabf7 0%, #74c0fc 100%);">Attestation</div>
+                        <h3>Développement Web - Niveau Débutant</h3>
+                        <div class="cert-issuer">Organisation Internationale de la Francophonie</div>
+                        <div class="cert-date">Obtenue en Janvier 2026</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">HTML5</span>
+                            <span class="cert-skill-tag">CSS3</span>
+                            <span class="cert-skill-tag">JavaScript (interactions simples)</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Attestation_dev_web_debutant.pdf" data-cert-title="Attestation Développement Web">Voir le certificat</button>
+                    </div>
+
+                    <!-- Attestation -->
+                    <div class="certification-card" data-category="attestations">
+                        <div class="cert-type-badge" style="background: linear-gradient(135deg, #4dabf7 0%, #74c0fc 100%);">Attestation</div>
+                        <h3>Développement Mobile - Niveau Débutant</h3>
+                        <div class="cert-issuer">Organisation Internationale de la Francophonie</div>
+                        <div class="cert-date">Obtenue en Novembre 2025</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Design UI/UX</span>
+                            <span class="cert-skill-tag">Low Code & No Code</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Attestation_dev_mobile_debutant.pdf" data-cert-title="Attestation Développement Mobile">Voir le certificat</button>
+                    </div>
+
+                    <!-- Certificat -->
+                    <div class="certification-card" data-category="certificats">
+                        <div class="cert-type-badge">Certificat</div>
+                        <h3>Flutter & Dart</h3>
+                        <div class="cert-issuer">Coursera - IBM</div>
+                        <div class="cert-date">Obtenu en Mai 2025</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Flutter</span>
+                            <span class="cert-skill-tag">Dart</span>
+                            <span class="cert-skill-tag">Design UI/UX</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Flutter-and-Dart.pdf" data-cert-title="Certificat Développement Mobile">Voir le certificat</button>
+                    </div>
+
+                    <!-- Certificat -->
+                    <div class="certification-card" data-category="certificats">
+                        <div class="cert-type-badge">Certificat</div>
+                        <h3>Designing UI/UX</h3>
+                        <div class="cert-issuer">Coursera - IBM</div>
+                        <div class="cert-date">Obtenu en Avril 2025</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Wireframes</span>
+                            <span class="cert-skill-tag">Prototypes</span>
+                            <span class="cert-skill-tag">Figma</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Designing-UI-UX.pdf" data-cert-title="Certificat Design UI/UX">Voir le certificat</button>
+                    </div>
+
+                    <!-- Certificat -->
+                    <div class="certification-card" data-category="certificats">
+                        <div class="cert-type-badge">Certificat</div>
+                        <h3>iOS App Development</h3>
+                        <div class="cert-issuer">Coursera - SkillUp EDTECH</div>
+                        <div class="cert-date">Obtenu en Avril 2025</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Environnement iOS</span>
+                            <span class="cert-skill-tag">X-Code</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/iOS-App-Development.pdf" data-cert-title="Certificat iOS App Development">Voir le certificat</button>
+                    </div>
+
+                    <!-- Certificat -->
+                    <div class="certification-card" data-category="certificats">
+                        <div class="cert-type-badge">Certificat</div>
+                        <h3>Introduction to HTML CSS & JS</h3>
+                        <div class="cert-issuer">Coursera - IBM</div>
+                        <div class="cert-date">Obtenu en Mars 2025</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Balises</span>
+                            <span class="cert-skill-tag">Sélecteurs</span>
+                            <span class="cert-skill-tag">Objets DOM</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Introduction-to-HTML-CSS-JS.pdf" data-cert-title="Certificat Introduction to HTML CSS JS">Voir le certificat</button>
+                    </div>
+
+                    <!-- Certificat -->
+                    <div class="certification-card" data-category="certificats">
+                        <div class="cert-type-badge">Certificat</div>
+                        <h3>Git and GitHub</h3>
+                        <div class="cert-issuer">Coursera - IBM</div>
+                        <div class="cert-date">Obtenu en Mars 2025</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Commandes Git</span>
+                            <span class="cert-skill-tag">Environnement GitHub</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Git-and-GitHub.pdf" data-cert-title="Certificat Git GitHub">Voir le certificat</button>
+                    </div>
+
+                    <!-- Certificat -->
+                    <div class="certification-card" data-category="certificats">
+                        <div class="cert-type-badge">Certificat</div>
+                        <h3>Android App Development</h3>
+                        <div class="cert-issuer">Coursera - SkillUp EDTECH</div>
+                        <div class="cert-date">Obtenu en Février 2025</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Android Studio</span>
+                            <span class="cert-skill-tag">Flutter & Dart</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Get-Strarted-with-Android-App-Development.pdf" data-cert-title="Certificat Android App Development">Voir le certificat</button>
+                    </div>
+
+                    <!-- Certificat -->
+                    <div class="certification-card" data-category="certificats">
+                        <div class="cert-type-badge">Certificat</div>
+                        <h3>Introduction to Software Engineering</h3>
+                        <div class="cert-issuer">Coursera - IBM</div>
+                        <div class="cert-date">Obtenu en Février 2025</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Notions théoriques</span>
+                            <span class="cert-skill-tag">Cycles de développement</span>
+                            <span class="cert-skill-tag">Bonnes pratiques de développement</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Introduction-to-Software-Engineering.pdf" data-cert-title="Certificat Introduction to Software Engineering">Voir le certificat</button>
+                    </div>
+
+                    <!-- Certificat -->
+                    <div class="certification-card" data-category="certificats">
+                        <div class="cert-type-badge">Certificat</div>
+                        <h3>Introduction to Mobile App Development</h3>
+                        <div class="cert-issuer">Coursera - IBM</div>
+                        <div class="cert-date">Obtenu en Janvier 2025</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Notions théoriques</span>
+                            <span class="cert-skill-tag">Types d'applications mobiles</span>
+                            <span class="cert-skill-tag">Langages de développement mobile</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Introduction-to-Mobile-App-Development.pdf" data-cert-title="Certificat Introduction to Mobile App Development">Voir le certificat</button>
+                    </div>
+
+                    <!-- Certificat -->
+                    <div class="certification-card" data-category="certificats">
+                        <div class="cert-type-badge">Certificat</div>
+                        <h3>Linux IO Redirection</h3>
+                        <div class="cert-issuer">Coursera Project Network</div>
+                        <div class="cert-date">Obtenu en Janvier 2025</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Linux</span>
+                            <span class="cert-skill-tag">Gestion des sorties de commandes</span>
+                            <span class="cert-skill-tag">Maitrise du terminal</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Linux-IO-Redirection.pdf" data-cert-title="Certificat Linux IO Redirection">Voir le certificat</button>
+                    </div>
+
+                    <!-- Certificat -->
+                    <div class="certification-card" data-category="certificats">
+                        <div class="cert-type-badge">Certificat</div>
+                        <h3>Intermediate Python</h3>
+                        <div class="cert-issuer">DataCamp</div>
+                        <div class="cert-date">Obtenu en Décembre 2024</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Fonctions</span>
+                            <span class="cert-skill-tag">Collections & Dictoinnaires</span>
+                            <span class="cert-skill-tag">Bibliothèques</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Intermediate-Python.pdf" data-cert-title="Certificat Intermediate-Python">Voir le certificat</button>
+                    </div>
+
+                    <!-- Attestation -->
+                    <div class="certification-card" data-category="attestations">
+                        <div class="cert-type-badge" style="background: linear-gradient(135deg, #4dabf7 0%, #74c0fc 100%);">Attestation</div>
+                        <h3>Maintenance matérielle et logicielle</h3>
+                        <div class="cert-issuer">POWERTECH SARL</div>
+                        <div class="cert-date">Obtenue en Août 2024</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Diagnostic</span>
+                            <span class="cert-skill-tag">Réparation</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Attestation_maintenance.pdf" data-cert-title="Attestation Maintenance Matérielle et Logicielle">Voir le certificat</button>
+                    </div>
+
+
+                    <!-- Certificat -->
+                    <div class="certification-card" data-category="certificats">
+                        <div class="cert-type-badge">Certificat</div>
+                        <h3>Introduction to Python</h3>
+                        <div class="cert-issuer">DataCamp</div>
+                        <div class="cert-date">Obtenu en Juillet 2024</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Variables</span>
+                            <span class="cert-skill-tag">Affichage</span>
+                            <span class="cert-skill-tag">Types de données</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Introduction-to-Python.pdf" data-cert-title="Certificat Introduction to Python">Voir le certificat</button>
+                    </div>
+
+                    <!-- Diplôme -->
+                    <div class="certification-card" data-category="diplomes">
+                        <div class="cert-type-badge" style="background: linear-gradient(135deg, #51cf66 0%, #69db7c 100%);">Diplôme</div>
+                        <h3>Baccalauréat</h3>
+                        <div class="cert-issuer">Lycée Scientifique National de Bobo-Dioulasso</div>
+                        <div class="cert-date">Obtenu en Juillet 2023</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Série C</span>
+                            <span class="cert-skill-tag">Mention Bien (14.19/20)</span>
+                             <span class="cert-skill-tag">Obtention d'une bourse nationale</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/mon_bac.pdf" data-cert-title="Diplôme Baccalauréat">Voir le diplôme</button>
+                    </div>
+
+                     <!-- Attestation -->
+                    <div class="certification-card" data-category="attestations">
+                        <div class="cert-type-badge" style="background: linear-gradient(135deg, #4dabf7 0%, #74c0fc 100%);">Attestation</div>
+                        <h3>Robotique</h3>
+                        <div class="cert-issuer">African Code Week</div>
+                        <div class="cert-date">Obtenue en Mars 2021</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Robot suiveur de ligne</span>
+                            <span class="cert-skill-tag">Cartes MicroBit</span>
+                            <span class="cert-skill-tag">Programmation visuelle</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Attestation_robotique.pdf" data-cert-title="Attestation Robotique">Voir le certificat</button>
+                    </div>
+
+                    <!-- Attestation -->
+                    <div class="certification-card" data-category="attestations">
+                        <div class="cert-type-badge" style="background: linear-gradient(135deg, #4dabf7 0%, #74c0fc 100%);">Attestation</div>
+                        <h3>Informatique - Bureautique</h3>
+                        <div class="cert-issuer">Global Training Initiation and Conception</div>
+                        <div class="cert-date">Obtenue en Septembre 2020</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Word & Excel anvancé</span>
+                            <span class="cert-skill-tag">Publisher</span>
+                            <span class="cert-skill-tag">Filmora & Movavi</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Bureautique1.pdf" data-cert-title="Attestation Bureautique avancée">Voir le certificat</button>
+                    </div>
+
+                    <!-- Attestation -->
+                    <div class="certification-card" data-category="attestations">
+                        <div class="cert-type-badge" style="background: linear-gradient(135deg, #4dabf7 0%, #74c0fc 100%);">Attestation</div>
+                        <h3>Informatique - Bureautique</h3>
+                        <div class="cert-issuer">Global Training Initiation and Conception</div>
+                        <div class="cert-date">Obtenue en Août 2020</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Word</span>
+                            <span class="cert-skill-tag">Excel</span>
+                            <span class="cert-skill-tag">PowerPoint</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/Bureautique2.pdf" data-cert-title="Attestation Bureautique">Voir le certificat</button>
+                    </div>
+
+                     <!-- Diplôme -->
+                    <div class="certification-card" data-category="diplomes">
+                        <div class="cert-type-badge" style="background: linear-gradient(135deg, #51cf66 0%, #69db7c 100%);">Diplôme</div>
+                        <h3>Brevet d'Étude du Premier Cycle</h3>
+                        <div class="cert-issuer">Lycée Privé Maranatha - Bobo Dioulasso</div>
+                        <div class="cert-date">Obtenu en Juillet 2020</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Mention Très Bien (17.33/20)</span>
+                            <span class="cert-skill-tag">Admission au Lycée Scientifique</span>
+                             <span class="cert-skill-tag">Obtention d'une bourse nationale</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/releve_BEPC.pdf" data-cert-title="Relevé Brevet d'Étude du Premier Cycle">Voir le diplôme</button>
+                    </div>
+
+                     <!-- Diplôme -->
+                    <div class="certification-card" data-category="diplomes">
+                        <div class="cert-type-badge" style="background: linear-gradient(135deg, #51cf66 0%, #69db7c 100%);">Diplôme</div>
+                        <h3>Certificat D'Études Primaires</h3>
+                        <div class="cert-issuer">École Primaire Privée Évangélique La Restauration - Bobo Dioulasso</div>
+                        <div class="cert-date">Obtenu en Juillet 2016</div>
+                        <div class="cert-skills">
+                            <span class="cert-skill-tag">Mention Excéllent (8.65/10)</span>
+                            <span class="cert-skill-tag">Obtention d'une bourse nationale</span>
+                            <span class="cert-skill-tag">Obtention du concours d'entrée en classe de 6ème</span>
+                        </div>
+                        <button class="cert-link cert-viewer-btn" data-cert-file="../assets/certifications/mon_CEP.pdf" data-cert-title="Diplôme Certificat d'Études Primaires">Voir le diplôme</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section CTA -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Quelque chose à partager ?</h2>
+                <p>Si vous connaissez une certification ou une ressource pertinente, n'hésitez pas à me contacter !</p>
+                <a href="contact.html" class="btn-primary">Me Contacter</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Accueil</a></li>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="certifications.html">Certifications</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Réseaux Sociaux</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/Rasec-ai-tech" title="GitHub">GH</a>
+                        <a href="https://www.linkedin.com/in/jean-c%C3%A9sar-le-grand-imien-8a835a31b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn">in</a>
+                        <a href="mailto:legrandimien@yahoo.com" title="Email">✉</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>By IMIEN Jean César Le Grand | Tous droits réservés - &copy; 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+    <!-- Modal pour afficher les certifications -->
+    <div id="certModal" class="cert-modal">
+        <div class="cert-modal-content">
+            <span class="cert-modal-close">&times;</span>
+            <h2 id="certModalTitle">Certificat</h2>
+            <div class="cert-modal-body">
+                <iframe id="certModalFrame" src="" type="application/pdf"></iframe>
+                <div class="cert-modal-fallback" style="display: none;">
+                    <p>Le PDF ne peut pas être affiché dans votre navigateur.</p>
+                    <a id="certModalDownloadLink" href="#" class="btn-primary" download>Télécharger le document</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/js/main.js"></script>
+    <script>
+        // Gestion de la modal de certificats
+        const certModal = document.getElementById('certModal');
+        const certModalFrame = document.getElementById('certModalFrame');
+        const certModalTitle = document.getElementById('certModalTitle');
+        const certModalClose = document.querySelector('.cert-modal-close');
+        const certViewerBtns = document.querySelectorAll('.cert-viewer-btn');
+
+        // Ouvrir la modal
+        certViewerBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const certFile = this.getAttribute('data-cert-file');
+                const certTitle = this.getAttribute('data-cert-title');
+                
+                certModalTitle.textContent = certTitle;
+                certModalFrame.src = certFile;
+                certModal.classList.add('show');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        // Fermer la modal au clic sur la croix
+        certModalClose.addEventListener('click', function() {
+            certModal.classList.remove('show');
+            certModalFrame.src = '';
+            document.body.style.overflow = 'auto';
+        });
+
+        // Fermer la modal au clic en dehors
+        window.addEventListener('click', function(event) {
+            if (event.target === certModal) {
+                certModal.classList.remove('show');
+                certModalFrame.src = '';
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        // Fermer avec la touche Echap
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape' && certModal.classList.contains('show')) {
+                certModal.classList.remove('show');
+                certModalFrame.src = '';
+                document.body.style.overflow = 'auto';
+            }
+        });
+    </script>
+</body>
+</html>
