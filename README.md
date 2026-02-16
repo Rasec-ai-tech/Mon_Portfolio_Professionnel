@@ -1,7 +1,7 @@
 # Mon Portfolio - IMIEN Jean César Le Grand
 
 ## À propos
-Portfolio personnel professionnel présentant mes compétences multidisciplinaires en **réseaux, programmation, développement web et robotique**. Créé entièrement avec **HTML5, CSS3 et JavaScript**. Ce projet est une version améliorée du projet final de la formation en développement web niveau débutant. (projet **DCLIC**)
+Portfolio personnel professionnel présentant mes compétences multidisciplinaires en **réseaux, programmation, développement web et robotique**. Créé entièrement avec **HTML5, CSS3 et JavaScript**. Ce projet est une version améliorée https://github.com/Rasec-ai-tech/ProjetFinal_DCLIC_DevWeb_Portfolio.
 
 ## Caractéristiques principales
 
